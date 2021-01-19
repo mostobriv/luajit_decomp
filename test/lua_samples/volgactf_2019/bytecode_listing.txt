@@ -1,0 +1,2285 @@
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0  18      ; 
+0002    TNEW     1   0
+0003    TNEW     2   0
+0004    TNEW     3   0
+0005    TNEW     4   0
+0006    TNEW     5   0
+0007    UGET     6   6      ; 
+0008    UGET     7   7      ; 
+0009    ISEQV    6   7
+0010    JMP      6 => 0013
+0011    KPRI     6   1
+0012    JMP      7 => 0014
+0013 => KPRI     6   2
+0014 => UGET     7   8      ; 
+0015    ISEQV    6   7
+0016    JMP      6 => 0019
+0017    KPRI     6   1
+0018    JMP      7 => 0020
+0019 => KPRI     6   2
+0020 => UGET     7   7      ; 
+0021    UGET     8   8      ; 
+0022    ISEQV    7   8
+0023    JMP      7 => 0026
+0024    KPRI     7   1
+0025    JMP      8 => 0027
+0026 => KPRI     7   2
+0027 => UGET     8   9      ; 
+0028    ISEQV    7   8
+0029    JMP      7 => 0032
+0030    KPRI     7   1
+0031    JMP      8 => 0033
+0032 => KPRI     7   2
+0033 => UGET     8   8      ; 
+0034    UGET     9   9      ; 
+0035    ISEQV    8   9
+0036    JMP      8 => 0039
+0037    KPRI     8   1
+0038    JMP      9 => 0040
+0039 => KPRI     8   2
+0040 => UGET     9  10      ; 
+0041    ISEQV    8   9
+0042    JMP      8 => 0045
+0043    KPRI     8   1
+0044    JMP      9 => 0046
+0045 => KPRI     8   2
+0046 => UGET     9   9      ; 
+0047    UGET    10  10      ; 
+0048    ISEQV    9  10
+0049    JMP      9 => 0052
+0050    KPRI     9   1
+0051    JMP     10 => 0053
+0052 => KPRI     9   2
+0053 => UGET    10  11      ; 
+0054    ISEQV    9  10
+0055    JMP      9 => 0058
+0056    KPRI     9   1
+0057    JMP     10 => 0059
+0058 => KPRI     9   2
+0059 => UGET    10  10      ; 
+0060    UGET    11  11      ; 
+0061    ISEQV   10  11
+0062    JMP     10 => 0065
+0063    KPRI    10   1
+0064    JMP     11 => 0066
+0065 => KPRI    10   2
+0066 => UGET    11  11      ; 
+0067    UGET    12  12      ; 
+0068    ISNEV   11  12
+0069    JMP     11 => 0072
+0070    KPRI    11   1
+0071    JMP     12 => 0073
+0072 => KPRI    11   2
+0073 => UGET    12  12      ; 
+0074    UGET    13  13      ; 
+0075    ISEQV   12  13
+0076    JMP     12 => 0079
+0077    KPRI    12   1
+0078    JMP     13 => 0080
+0079 => KPRI    12   2
+0080 => UGET    13   6      ; 
+0081    ISEQV   12  13
+0082    JMP     12 => 0085
+0083    KPRI    12   1
+0084    JMP     13 => 0086
+0085 => KPRI    12   2
+0086 => UGET    13  13      ; 
+0087    UGET    14   6      ; 
+0088    ISEQV   13  14
+0089    JMP     13 => 0092
+0090    KPRI    13   1
+0091    JMP     14 => 0093
+0092 => KPRI    13   2
+0093 => UGET    14   7      ; 
+0094    ISNEV   13  14
+0095    JMP     13 => 0098
+0096    KPRI    13   1
+0097    JMP     14 => 0099
+0098 => KPRI    13   2
+0099 => UGET    14   6      ; 
+0100    UGET    15   7      ; 
+0101    ISEQV   14  15
+0102    JMP     14 => 0105
+0103    KPRI    14   1
+0104    JMP     15 => 0106
+0105 => KPRI    14   2
+0106 => UGET    15   7      ; 
+0107    UGET    16   8      ; 
+0108    ISNEV   15  16
+0109    JMP     15 => 0112
+0110    KPRI    15   1
+0111    JMP     16 => 0113
+0112 => KPRI    15   2
+0113 => UGET    16   9      ; 
+0114    UGET    17  10      ; 
+0115    ISEQV   16  17
+0116    JMP     16 => 0119
+0117    KPRI    16   1
+0118    JMP     17 => 0120
+0119 => KPRI    16   2
+0120 => KPRI    17   0
+0121    USETV   17  17      ; 
+0122    USETV   16  16      ; 
+0123    USETV   15  15      ; 
+0124    USETV   14  14      ; 
+0125    USETV   13  13      ; 
+0126    USETV   12  12      ; 
+0127    USETV   11  11      ; 
+0128    USETV   10  10      ; 
+0129    USETV    9   9      ; 
+0130    USETV    8   8      ; 
+0131    USETV    7   7      ; 
+0132    USETV    6   6      ; 
+0133    USETV    5   5      ; 
+0134    USETV    4   4      ; 
+0135    USETV    3   3      ; 
+0136    USETV    2   2      ; 
+0137    USETV    1   1      ; 
+0138    USETV    0   0      ; 
+0139    KSHORT   0   0
+0140 => UGET     1  14      ; 
+0141    ISF          1
+0142    JMP      2 => 0263
+0143    LOOP     1 => 0263
+0144    UGET     1  19      ; 
+0145    ISF          1
+0146    JMP      2 => 0260
+0147    UGET     1  20      ; 
+0148    ISF          1
+0149    JMP      2 => 0257
+0150    UGET     1  21      ; 
+0151    ISF          1
+0152    JMP      2 => 0253
+0153    UGET     1  22      ; 
+0154    ISF          1
+0155    JMP      2 => 0249
+0156    UGET     1  23      ; 
+0157    ISF          1
+0158    JMP      2 => 0245
+0159    UGET     1  24      ; 
+0160    ISF          1
+0161    JMP      2 => 0241
+0162    UGET     1  25      ; 
+0163    ISF          1
+0164    JMP      2 => 0237
+0165    UGET     1  26      ; 
+0166    ISF          1
+0167    JMP      2 => 0233
+0168    UGET     1  27      ; 
+0169    ISF          1
+0170    JMP      2 => 0229
+0171    UGET     1  28      ; 
+0172    ISF          1
+0173    JMP      2 => 0225
+0174    UGET     1  29      ; 
+0175    ISF          1
+0176    JMP      2 => 0221
+0177    UGET     1  30      ; 
+0178    ISF          1
+0179    JMP      2 => 0217
+0180    UGET     1  31      ; 
+0181    ISF          1
+0182    JMP      2 => 0213
+0183    UGET     1  32      ; 
+0184    ISF          1
+0185    JMP      2 => 0209
+0186    UGET     1  33      ; 
+0187    ISF          1
+0188    JMP      2 => 0205
+0189    UGET     1  34      ; 
+0190    ISF          1
+0191    JMP      2 => 0201
+0192    UGET     1  35      ; 
+0193    ISF          1
+0194    JMP      2 => 0197
+0195    JMP      1 => 0263
+0196    JMP      1 => 0140
+0197 => USETV   35   0      ; 
+0198    UGET     1  20      ; 
+0199    ADDVV    0   0   1
+0200    JMP      1 => 0140
+0201 => USETV   34   0      ; 
+0202    UGET     1  20      ; 
+0203    ADDVV    0   0   1
+0204    JMP      1 => 0140
+0205 => USETV   33   0      ; 
+0206    UGET     1  20      ; 
+0207    ADDVV    0   0   1
+0208    JMP      1 => 0140
+0209 => USETV   32   0      ; 
+0210    UGET     1  20      ; 
+0211    ADDVV    0   0   1
+0212    JMP      1 => 0140
+0213 => USETV   31   0      ; 
+0214    UGET     1  20      ; 
+0215    ADDVV    0   0   1
+0216    JMP      1 => 0140
+0217 => USETV   30   0      ; 
+0218    UGET     1  20      ; 
+0219    ADDVV    0   0   1
+0220    JMP      1 => 0140
+0221 => USETV   29   0      ; 
+0222    UGET     1  20      ; 
+0223    ADDVV    0   0   1
+0224    JMP      1 => 0140
+0225 => USETV   28   0      ; 
+0226    UGET     1  20      ; 
+0227    ADDVV    0   0   1
+0228    JMP      1 => 0140
+0229 => USETV   27   0      ; 
+0230    UGET     1  20      ; 
+0231    ADDVV    0   0   1
+0232    JMP      1 => 0140
+0233 => USETV   26   0      ; 
+0234    UGET     1  20      ; 
+0235    ADDVV    0   0   1
+0236    JMP      1 => 0140
+0237 => USETV   25   0      ; 
+0238    UGET     1  20      ; 
+0239    ADDVV    0   0   1
+0240    JMP      1 => 0140
+0241 => USETV   24   0      ; 
+0242    UGET     1  20      ; 
+0243    ADDVV    0   0   1
+0244    JMP      1 => 0140
+0245 => USETV   23   0      ; 
+0246    UGET     1  20      ; 
+0247    ADDVV    0   0   1
+0248    JMP      1 => 0140
+0249 => USETV   22   0      ; 
+0250    UGET     1  20      ; 
+0251    ADDVV    0   0   1
+0252    JMP      1 => 0140
+0253 => USETV   21   0      ; 
+0254    UGET     1  20      ; 
+0255    ADDVV    0   0   1
+0256    JMP      1 => 0140
+0257 => USETV   20   0      ; 
+0258    ADDVN    0   0   0  ; 1
+0259    JMP      1 => 0140
+0260 => USETV   19   0      ; 
+0261    ADDVN    0   0   0  ; 1
+0262    JMP      1 => 0140
+0263 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2  10      ; 
+0004    UGET     3  11      ; 
+0005    GGET     4   0      ; "_G"
+0006    TDUP     5   1
+0007    TDUP     6   2
+0008    TNEW     7   5
+0009    UGET     8  12      ; 
+0010    TSETB    8   7   1
+0011    UGET     8   2      ; 
+0012    TSETB    8   7   2
+0013    UGET     8  13      ; 
+0014    TSETB    8   7   3
+0015    UGET     8  14      ; 
+0016    TSETB    8   7   4
+0017    TNEW     8   7
+0018    UGET     9  15      ; 
+0019    TSETB    9   8   1
+0020    UGET     9  16      ; 
+0021    TSETB    9   8   2
+0022    UGET     9  12      ; 
+0023    TSETB    9   8   3
+0024    UGET     9  14      ; 
+0025    TSETB    9   8   4
+0026    UGET     9  13      ; 
+0027    TSETB    9   8   5
+0028    UGET     9   2      ; 
+0029    TSETB    9   8   6
+0030    KSTR     9   3      ; ""
+0031    USETS    9   3      ;  ; ""
+0032    USETV    8   9      ; 
+0033    USETV    7   8      ; 
+0034    USETV    6   7      ; 
+0035    USETV    5   6      ; 
+0036    USETV    4   5      ; 
+0037    USETV    3   4      ; 
+0038    TSETV    3   0   1
+0039    USETV    0   2      ; 
+0040    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    TNEW     2   0
+0004    TSETV    2   0   1
+0005    KSHORT   0   1
+0006    UGET     1   0      ; 
+0007    UGET     2   2      ; 
+0008    TGETV    1   1   2
+0009    LEN      1   1
+0010    KSHORT   2   1
+0011    FORI     0 => 0086
+0012 => UGET     4   3      ; 
+0013    UGET     5   4      ; 
+0014    TGETV    4   4   5
+0015    UGET     5   3      ; 
+0016    UGET     6   2      ; 
+0017    TGETV    5   5   6
+0018    UGET     6   0      ; 
+0019    UGET     7   2      ; 
+0020    TGETV    6   6   7
+0021    MOV      7   3
+0022    MOV      8   3
+0023    CALL     5   0   4
+0024    CALLM    4   2   0
+0025    KSTR     5   0      ; ""
+0026 => UGET     6   5      ; 
+0027    ISGE     6   4
+0028    JMP      6 => 0041
+0029    LOOP     6 => 0041
+0030    MODVN    6   4   0  ; 2
+0031    MOV      7   5
+0032    CAT      6   6   7
+0033    UGET     7   3      ; 
+0034    UGET     8   1      ; 
+0035    TGETV    7   7   8
+0036    DIVVN    8   4   0  ; 2
+0037    CALL     7   2   2
+0038    MOV      4   7
+0039    MOV      5   6
+0040    JMP      6 => 0026
+0041 => LEN      6   5
+0042    UGET     7   6      ; 
+0043    ISGE     6   7
+0044    JMP      6 => 0052
+0045    LOOP     6 => 0052
+0046    KSTR     6   0      ; ""
+0047    UGET     7   5      ; 
+0048    CAT      6   6   7
+0049    MOV      7   5
+0050    CAT      5   6   7
+0051    JMP      6 => 0041
+0052 => UGET     6   7      ; 
+0053    UGET     7   6      ; 
+0054    KSHORT   8   1
+0055    FORI     6 => 0085
+0056 => UGET    10   0      ; 
+0057    UGET    11   1      ; 
+0058    TGETV   10  10  11
+0059    LEN     10  10
+0060    UGET    11   0      ; 
+0061    UGET    12   4      ; 
+0062    TGETV   11  11  12
+0063    ISGE    10  11
+0064    JMP     10 => 0084
+0065    UGET    10   0      ; 
+0066    UGET    11   1      ; 
+0067    TGETV   10  10  11
+0068    UGET    11   0      ; 
+0069    UGET    12   1      ; 
+0070    TGETV   11  11  12
+0071    LEN     11  11
+0072    UGET    12   7      ; 
+0073    ADDVV   11  11  12
+0074    UGET    12   3      ; 
+0075    UGET    13   2      ; 
+0076    TGETV   12  12  13
+0077    MOV     13   5
+0078    MOV     14   9
+0079    MOV     15   9
+0080    CALL    12   2   4
+0081    UGET    13   5      ; 
+0082    ADDVV   12  12  13
+0083    TSETV   12  10  11
+0084 => FORL     6 => 0056
+0085 => FORL     0 => 0012
+0086 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    KSHORT   2   1
+0004    FORI     0 => 0032
+0005 => UGET     4   2      ; 
+0006    UGET     5   4      ; 
+0007    UGET     6   5      ; 
+0008    TGETV    6   6   3
+0009    IST          6
+0010    JMP      7 => 0012
+0011    UGET     6   6      ; 
+0012 => TGETV    5   5   6
+0013    IST          5
+0014    JMP      6 => 0016
+0015    KSTR     5   0      ; ""
+0016 => CAT      4   4   5
+0017    UGET     5   3      ; 
+0018    UGET     6   7      ; 
+0019    UGET     7   8      ; 
+0020    TGETV    7   7   3
+0021    IST          7
+0022    JMP      8 => 0024
+0023    UGET     7   6      ; 
+0024 => TGETV    6   6   7
+0025    IST          6
+0026    JMP      7 => 0028
+0027    KSTR     6   0      ; ""
+0028 => CAT      5   5   6
+0029    USETV    3   5      ; 
+0030    USETV    2   4      ; 
+0031    FORL     0 => 0005
+0032 => UGET     0  10      ; 
+0033    UGET     1  11      ; 
+0034    UGET     2  12      ; 
+0035    UGET     3  13      ; 
+0036    UGET     4  14      ; 
+0037    UGET     5   3      ; 
+0038    TGETV    4   4   5
+0039    UGET     5   2      ; 
+0040    TGETV    4   4   5
+0041    KNIL     5   9
+0042    USETV    3   9      ; 
+0043    USETV    2   8      ; 
+0044    USETV    8   7      ; 
+0045    USETV    5   6      ; 
+0046    USETV    7   5      ; 
+0047    USETV    4   4      ; 
+0048    TSETV    3   0   1
+0049    USETV    9   2      ; 
+0050    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    TGETV    0   0   1
+0004    UGET     1   2      ; 
+0005    UGET     2   0      ; 
+0006    UGET     3   1      ; 
+0007    TGETV    2   2   3
+0008    UGET     3   3      ; 
+0009    KSTR     4   0      ; ""
+0010    KSTR     5   0      ; ""
+0011    TSETV    5   2   3
+0012    TSETV    4   0   1
+0013    UGET     0   3      ; 
+0014    UGET     1   4      ; 
+0015    UGET     2   5      ; 
+0016    TGETV    1   1   2
+0017    LEN      1   1
+0018    KSHORT   2   1
+0019    FORI     0 => 0069
+0020 => UGET     4   4      ; 
+0021    UGET     5   6      ; 
+0022    TGETV    4   4   5
+0023    TGETV    4   4   3
+0024    UGET     5   3      ; 
+0025    ISNEV    4   5
+0026    JMP      4 => 0048
+0027    UGET     4   0      ; 
+0028    UGET     5   1      ; 
+0029    TGETV    4   4   5
+0030    UGET     5   2      ; 
+0031    UGET     6   0      ; 
+0032    UGET     7   1      ; 
+0033    TGETV    6   6   7
+0034    UGET     7   2      ; 
+0035    TGETV    6   6   7
+0036    UGET     7   0      ; 
+0037    UGET     8   7      ; 
+0038    TGETV    7   7   8
+0039    UGET     8   4      ; 
+0040    UGET     9   5      ; 
+0041    TGETV    8   8   9
+0042    MOV      9   3
+0043    MOV     10   3
+0044    CALL     7   2   4
+0045    CAT      6   6   7
+0046    TSETV    6   4   5
+0047    JMP      4 => 0068
+0048 => UGET     4   0      ; 
+0049    UGET     5   1      ; 
+0050    TGETV    4   4   5
+0051    UGET     5   3      ; 
+0052    UGET     6   0      ; 
+0053    UGET     7   1      ; 
+0054    TGETV    6   6   7
+0055    UGET     7   3      ; 
+0056    TGETV    6   6   7
+0057    UGET     7   0      ; 
+0058    UGET     8   7      ; 
+0059    TGETV    7   7   8
+0060    UGET     8   4      ; 
+0061    UGET     9   5      ; 
+0062    TGETV    8   8   9
+0063    MOV      9   3
+0064    MOV     10   3
+0065    CALL     7   2   4
+0066    CAT      6   6   7
+0067    TSETV    6   4   5
+0068 => FORL     0 => 0020
+0069 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    CALL     3   2   1
+0006    TSETV    3   0   1
+0007    USETV    0   2      ; 
+0008    UGET     0   1      ; 
+0009    UGET     1   5      ; 
+0010    UGET     2   1      ; 
+0011    UGET     3   6      ; 
+0012    UGET     4   1      ; 
+0013    UGET     5   7      ; 
+0014    UGET     6   1      ; 
+0015    UGET     7   8      ; 
+0016    UGET     8   4      ; 
+0017    CALL     8   2   1
+0018    UGET     9   1      ; 
+0019    UGET    10   2      ; 
+0020    TGETV    9   9  10
+0021    TNEW    10  11
+0022    UGET    11   9      ; 
+0023    UGET    12  10      ; 
+0024    MULVV   11  11  12
+0025    UGET    12   6      ; 
+0026    ADDVV   11  11  12
+0027    TSETB   11  10   1
+0028    UGET    11   9      ; 
+0029    UGET    12  10      ; 
+0030    MULVV   11  11  12
+0031    UGET    12   7      ; 
+0032    ADDVV   11  11  12
+0033    TSETB   11  10   2
+0034    UGET    11   9      ; 
+0035    UGET    12  10      ; 
+0036    MULVV   11  11  12
+0037    UGET    12   5      ; 
+0038    ADDVV   11  11  12
+0039    TSETB   11  10   3
+0040    UGET    11  11      ; 
+0041    UGET    12  10      ; 
+0042    MULVV   11  11  12
+0043    UGET    12  12      ; 
+0044    ADDVV   11  11  12
+0045    TSETB   11  10   4
+0046    UGET    11  11      ; 
+0047    UGET    12  10      ; 
+0048    MULVV   11  11  12
+0049    UGET    12  13      ; 
+0050    ADDVV   11  11  12
+0051    TSETB   11  10   5
+0052    UGET    11  11      ; 
+0053    UGET    12  10      ; 
+0054    MULVV   11  11  12
+0055    UGET    12   9      ; 
+0056    ADDVV   11  11  12
+0057    TSETB   11  10   6
+0058    UGET    11   5      ; 
+0059    UGET    12  10      ; 
+0060    MULVV   11  11  12
+0061    UGET    12  13      ; 
+0062    ADDVV   11  11  12
+0063    TSETB   11  10   7
+0064    UGET    11   9      ; 
+0065    UGET    12  10      ; 
+0066    MULVV   11  11  12
+0067    UGET    12   6      ; 
+0068    ADDVV   11  11  12
+0069    TSETB   11  10   8
+0070    UGET    11   9      ; 
+0071    UGET    12  10      ; 
+0072    MULVV   11  11  12
+0073    UGET    12   8      ; 
+0074    ADDVV   11  11  12
+0075    TSETB   11  10   9
+0076    UGET    11  11      ; 
+0077    UGET    12  10      ; 
+0078    MULVV   11  11  12
+0079    UGET    12   5      ; 
+0080    ADDVV   11  11  12
+0081    TSETB   11  10  10
+0082    CALL     9   2   2
+0083    UGET    10   1      ; 
+0084    UGET    11   2      ; 
+0085    TGETV   10  10  11
+0086    TNEW    11  12
+0087    UGET    12   9      ; 
+0088    UGET    13  10      ; 
+0089    MULVV   12  12  13
+0090    UGET    13   6      ; 
+0091    ADDVV   12  12  13
+0092    TSETB   12  11   1
+0093    UGET    12   9      ; 
+0094    UGET    13  10      ; 
+0095    MULVV   12  12  13
+0096    UGET    13   7      ; 
+0097    ADDVV   12  12  13
+0098    TSETB   12  11   2
+0099    UGET    12   9      ; 
+0100    UGET    13  10      ; 
+0101    MULVV   12  12  13
+0102    UGET    13   5      ; 
+0103    ADDVV   12  12  13
+0104    TSETB   12  11   3
+0105    UGET    12  11      ; 
+0106    UGET    13  10      ; 
+0107    MULVV   12  12  13
+0108    UGET    13  12      ; 
+0109    ADDVV   12  12  13
+0110    TSETB   12  11   4
+0111    UGET    12  11      ; 
+0112    UGET    13  10      ; 
+0113    MULVV   12  12  13
+0114    UGET    13  13      ; 
+0115    ADDVV   12  12  13
+0116    TSETB   12  11   5
+0117    UGET    12  11      ; 
+0118    UGET    13  10      ; 
+0119    MULVV   12  12  13
+0120    UGET    13   9      ; 
+0121    ADDVV   12  12  13
+0122    TSETB   12  11   6
+0123    UGET    12   5      ; 
+0124    UGET    13  10      ; 
+0125    MULVV   12  12  13
+0126    UGET    13  13      ; 
+0127    ADDVV   12  12  13
+0128    TSETB   12  11   7
+0129    UGET    12  11      ; 
+0130    UGET    13  10      ; 
+0131    MULVV   12  12  13
+0132    UGET    13   5      ; 
+0133    ADDVV   12  12  13
+0134    TSETB   12  11   8
+0135    UGET    12   9      ; 
+0136    UGET    13  10      ; 
+0137    MULVV   12  12  13
+0138    UGET    13  12      ; 
+0139    ADDVV   12  12  13
+0140    TSETB   12  11   9
+0141    UGET    12   9      ; 
+0142    UGET    13  10      ; 
+0143    MULVV   12  12  13
+0144    UGET    13   7      ; 
+0145    ADDVV   12  12  13
+0146    TSETB   12  11  10
+0147    UGET    12  11      ; 
+0148    UGET    13  10      ; 
+0149    MULVV   12  12  13
+0150    UGET    13   8      ; 
+0151    ADDVV   12  12  13
+0152    TSETB   12  11  11
+0153    CALL    10   2   2
+0154    UGET    11   1      ; 
+0155    UGET    12   2      ; 
+0156    TGETV   11  11  12
+0157    TNEW    12  11
+0158    UGET    13  11      ; 
+0159    UGET    14  10      ; 
+0160    MULVV   13  13  14
+0161    UGET    14  14      ; 
+0162    ADDVV   13  13  14
+0163    TSETB   13  12   1
+0164    UGET    13  11      ; 
+0165    UGET    14  10      ; 
+0166    MULVV   13  13  14
+0167    UGET    14   2      ; 
+0168    ADDVV   13  13  14
+0169    TSETB   13  12   2
+0170    UGET    13   9      ; 
+0171    UGET    14  10      ; 
+0172    MULVV   13  13  14
+0173    UGET    14   7      ; 
+0174    ADDVV   13  13  14
+0175    TSETB   13  12   3
+0176    UGET    13  11      ; 
+0177    UGET    14  10      ; 
+0178    MULVV   13  13  14
+0179    UGET    14  15      ; 
+0180    ADDVV   13  13  14
+0181    TSETB   13  12   4
+0182    UGET    13   5      ; 
+0183    UGET    14  10      ; 
+0184    MULVV   13  13  14
+0185    UGET    14  13      ; 
+0186    ADDVV   13  13  14
+0187    TSETB   13  12   5
+0188    UGET    13  11      ; 
+0189    UGET    14  10      ; 
+0190    MULVV   13  13  14
+0191    UGET    14  11      ; 
+0192    ADDVV   13  13  14
+0193    TSETB   13  12   6
+0194    UGET    13  11      ; 
+0195    UGET    14  10      ; 
+0196    MULVV   13  13  14
+0197    UGET    14  16      ; 
+0198    ADDVV   13  13  14
+0199    TSETB   13  12   7
+0200    UGET    13  11      ; 
+0201    UGET    14  10      ; 
+0202    MULVV   13  13  14
+0203    UGET    14  17      ; 
+0204    ADDVV   13  13  14
+0205    TSETB   13  12   8
+0206    UGET    13  11      ; 
+0207    UGET    14  10      ; 
+0208    MULVV   13  13  14
+0209    UGET    14  17      ; 
+0210    ADDVV   13  13  14
+0211    TSETB   13  12   9
+0212    UGET    13   9      ; 
+0213    UGET    14  10      ; 
+0214    MULVV   13  13  14
+0215    UGET    14   5      ; 
+0216    ADDVV   13  13  14
+0217    TSETB   13  12  10
+0218    CALL    11   2   2
+0219    TSETV   11   6   7
+0220    TSETV   10   4   5
+0221    TSETV    9   2   3
+0222    TSETV    8   0   1
+0223    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    KSTR     1   0      ; ""
+0002    UGET     2   0      ; 
+0003    LEN      3   0
+0004    UGET     4   0      ; 
+0005    FORI     2 => 0012
+0006 => MOV      6   1
+0007    UGET     7   1      ; 
+0008    TGETV    8   0   5
+0009    CALL     7   2   2
+0010    CAT      1   6   7
+0011    FORL     2 => 0006
+0012 => RET1     1   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    KSTR     1   0      ; ""
+0002    KSTR     2   0      ; ""
+0003    KSTR     3   0      ; ""
+0004    KPRI     4   0
+0005    UGET     5   0      ; 
+0006    LEN      6   0
+0007    UGET     7   0      ; 
+0008    FORI     5 => 0033
+0009 => ISF          4
+0010    JMP      9 => 0017
+0011    MOV      9   2
+0012    UGET    10   1      ; 
+0013    TGETV   11   0   8
+0014    CALL    10   2   2
+0015    CAT      2   9  10
+0016    JMP      9 => 0032
+0017 => TGETV    9   0   8
+0018    UGET    10   2      ; 
+0019    UGET    11   3      ; 
+0020    MULVV   10  10  11
+0021    UGET    11   0      ; 
+0022    ADDVV   10  10  11
+0023    ISNEV    9  10
+0024    JMP      9 => 0027
+0025    UGET     4   4      ; 
+0026    JMP      9 => 0032
+0027 => MOV      9   1
+0028    UGET    10   1      ; 
+0029    TGETV   11   0   8
+0030    CALL    10   2   2
+0031    CAT      1   9  10
+0032 => FORL     5 => 0009
+0033 => ISNEV    2   3
+0034    JMP      5 => 0039
+0035    UGET     5   5      ; 
+0036    TGETV    5   5   1
+0037    IST          5
+0038    JMP      6 => 0042
+0039 => UGET     5   5      ; 
+0040    TGETV    5   5   1
+0041    TGETV    5   5   2
+0042 => RET1     5   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    UGET     2   2      ; 
+0004    UGET     3   3      ; 
+0005    TGETV    2   2   3
+0006    ISF          2
+0007    JMP      3 => 0012
+0008    FNEW     2   0      ; volga_task.luac:0
+0009    UCLO     0 => 0010
+0010 => RET1     2   2
+0011    JMP      2 => 0015
+0012 => FNEW     2   1      ; volga_task.luac:0
+0013    UCLO     0 => 0014
+0014 => RET1     2   2
+0015 => UCLO     0 => 0016
+0016 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+
+local0 = uv1
+local1 = uv2
+local2 = uv3
+local3 = uv4
+local3[local0] = local1
+uv0 = local2
+return
+
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     1   0      ; 
+0002    UGET     2   1      ; 
+0003    TGETV    1   1   2
+0004    UGET     2   0      ; 
+0005    UGET     3   2      ; 
+0006    TGETV    2   2   3
+0007    MOV      3   0
+0008    UGET     4   3      ; 
+0009    UGET     5   3      ; 
+0010    CALL     2   0   4
+0011    CALLM    1   2   0
+0012    UGET     2   4      ; 
+0013    MULVV    1   1   2
+0014    UGET     2   4      ; 
+0015    MULVV    1   1   2
+0016    UGET     2   0      ; 
+0017    UGET     3   1      ; 
+0018    TGETV    2   2   3
+0019    UGET     3   0      ; 
+0020    UGET     4   2      ; 
+0021    TGETV    3   3   4
+0022    MOV      4   0
+0023    UGET     5   5      ; 
+0024    UGET     6   5      ; 
+0025    CALL     3   0   4
+0026    CALLM    2   2   0
+0027    ADDVV    1   1   2
+0028    RET1     1   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    UGET     2   2      ; 
+0004    TSETV    2   0   1
+0005    UGET     0   0      ; 
+0006    UGET     1   3      ; 
+0007    TNEW     2   3
+0008    UGET     3   0      ; 
+0009    UGET     4   4      ; 
+0010    TGETV    3   3   4
+0011    UGET     4   5      ; 
+0012    UGET     5   6      ; 
+0013    UGET     6   5      ; 
+0014    LEN      6   6
+0015    CALL     3   0   4
+0016    TSETM    3   0      ; 1
+0017    TSETV    2   0   1
+0018    UGET     0   0      ; 
+0019    UGET     1   3      ; 
+0020    TGETV    0   0   1
+0021    UGET     1   7      ; 
+0022    UGET     2   0      ; 
+0023    UGET     3   3      ; 
+0024    TGETV    2   2   3
+0025    UGET     3   4      ; 
+0026    TDUP     4   0
+0027    UGET     5   0      ; 
+0028    UGET     6   8      ; 
+0029    TGETV    5   5   6
+0030    UGET     6   0      ; 
+0031    UGET     7   4      ; 
+0032    TGETV    6   6   7
+0033    UGET     7   0      ; 
+0034    UGET     8   3      ; 
+0035    TGETV    7   7   8
+0036    UGET     8   9      ; 
+0037    TGETV    7   7   8
+0038    UGET     8   7      ; 
+0039    UGET     9   7      ; 
+0040    CALL     6   2   4
+0041    UGET     7   0      ; 
+0042    UGET     8   4      ; 
+0043    TGETV    7   7   8
+0044    UGET     8   0      ; 
+0045    UGET     9   3      ; 
+0046    TGETV    8   8   9
+0047    UGET     9   9      ; 
+0048    TGETV    8   8   9
+0049    UGET     9  10      ; 
+0050    UGET    10  10      ; 
+0051    CALL     7   2   4
+0052    CAT      6   6   7
+0053    CALL     5   2   2
+0054    TSETB    5   4   1
+0055    KSTR     5   1      ; ""
+0056    TSETV    5   2   3
+0057    TSETV    4   0   1
+0058    UGET     0   8      ; 
+0059    UGET     1   8      ; 
+0060    UGET     2   0      ; 
+0061    UGET     3   3      ; 
+0062    TGETV    2   2   3
+0063    UGET     3   7      ; 
+0064    TGETV    2   2   3
+0065    UGET     3   9      ; 
+0066    TGETV    2   2   3
+0067    UGET     3   7      ; 
+0068    MULVV    2   2   3
+0069    ADDVV    1   1   2
+0070    UGET     2   9      ; 
+0071    SUBVV    1   1   2
+0072    UGET     2   7      ; 
+0073    FORI     0 => 0101
+0074 => UGET     4   0      ; 
+0075    UGET     5   3      ; 
+0076    TGETV    4   4   5
+0077    UGET     5   7      ; 
+0078    TGETV    4   4   5
+0079    UGET     5   7      ; 
+0080    UGET     6   0      ; 
+0081    UGET     7   3      ; 
+0082    TGETV    6   6   7
+0083    UGET     7   7      ; 
+0084    TGETV    6   6   7
+0085    UGET     7   7      ; 
+0086    TGETV    6   6   7
+0087    UGET     7   0      ; 
+0088    UGET     8   4      ; 
+0089    TGETV    7   7   8
+0090    UGET     8   0      ; 
+0091    UGET     9   3      ; 
+0092    TGETV    8   8   9
+0093    UGET     9   9      ; 
+0094    TGETV    8   8   9
+0095    MOV      9   3
+0096    MOV     10   3
+0097    CALL     7   2   4
+0098    CAT      6   6   7
+0099    TSETV    6   4   5
+0100    FORL     0 => 0074
+0101 => UGET     0   9      ; 
+0102    UGET     1   0      ; 
+0103    UGET     2   3      ; 
+0104    TGETV    1   1   2
+0105    UGET     2   7      ; 
+0106    TGETV    1   1   2
+0107    UGET     2   9      ; 
+0108    TGETV    1   1   2
+0109    UGET     2   7      ; 
+0110    MULVV    1   1   2
+0111    UGET     2  11      ; 
+0112    ADDVV    1   1   2
+0113    UGET     2   7      ; 
+0114    FORI     0 => 0138
+0115 => UGET     4   0      ; 
+0116    UGET     5   3      ; 
+0117    TGETV    4   4   5
+0118    UGET     5   4      ; 
+0119    UGET     6   0      ; 
+0120    UGET     7   3      ; 
+0121    TGETV    6   6   7
+0122    UGET     7   4      ; 
+0123    TGETV    6   6   7
+0124    UGET     7   0      ; 
+0125    UGET     8   4      ; 
+0126    TGETV    7   7   8
+0127    UGET     8   0      ; 
+0128    UGET     9   3      ; 
+0129    TGETV    8   8   9
+0130    UGET     9   9      ; 
+0131    TGETV    8   8   9
+0132    MOV      9   3
+0133    MOV     10   3
+0134    CALL     7   2   4
+0135    CAT      6   6   7
+0136    TSETV    6   4   5
+0137    FORL     0 => 0115
+0138 => UGET     0   0      ; 
+0139    UGET     1   3      ; 
+0140    TGETV    0   0   1
+0141    UGET     1   7      ; 
+0142    UGET     2   0      ; 
+0143    UGET     3   3      ; 
+0144    TGETV    2   2   3
+0145    UGET     3   4      ; 
+0146    UGET     4   0      ; 
+0147    UGET     5   3      ; 
+0148    TGETV    4   4   5
+0149    UGET     5   7      ; 
+0150    TGETV    4   4   5
+0151    UGET     5   7      ; 
+0152    TGETV    4   4   5
+0153    UGET     5   0      ; 
+0154    UGET     6   3      ; 
+0155    TGETV    5   5   6
+0156    UGET     6   4      ; 
+0157    TGETV    5   5   6
+0158    UGET     6   0      ; 
+0159    UGET     7   4      ; 
+0160    TGETV    6   6   7
+0161    UGET     7   0      ; 
+0162    UGET     8   3      ; 
+0163    TGETV    7   7   8
+0164    UGET     8   9      ; 
+0165    TGETV    7   7   8
+0166    UGET     8   0      ; 
+0167    UGET     9   3      ; 
+0168    TGETV    8   8   9
+0169    UGET     9   7      ; 
+0170    TGETV    8   8   9
+0171    UGET     9   9      ; 
+0172    TGETV    8   8   9
+0173    UGET     9   7      ; 
+0174    MULVV    8   8   9
+0175    UGET     9   8      ; 
+0176    ADDVV    8   8   9
+0177    UGET     9   0      ; 
+0178    UGET    10   3      ; 
+0179    TGETV    9   9  10
+0180    UGET    10   9      ; 
+0181    TGETV    9   9  10
+0182    LEN      9   9
+0183    CALL     6   2   4
+0184    CAT      5   5   6
+0185    TSETV    5   2   3
+0186    TSETV    4   0   1
+0187    UGET     0  12      ; 
+0188    UGET     1   7      ; 
+0189    TGETV    0   0   1
+0190    CALLT    0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    UGET     2   2      ; 
+0004    UGET     3   3      ; 
+0005    TGETV    2   2   3
+0006    UGET     3   2      ; 
+0007    UGET     4   4      ; 
+0008    TGETV    3   3   4
+0009    UGET     4   2      ; 
+0010    UGET     5   5      ; 
+0011    TGETV    4   4   5
+0012    UGET     5   6      ; 
+0013    TGETV    4   4   5
+0014    UGET     5   2      ; 
+0015    UGET     6   5      ; 
+0016    TGETV    5   5   6
+0017    UGET     6   6      ; 
+0018    TGETV    5   5   6
+0019    LEN      5   5
+0020    UGET     6   7      ; 
+0021    SUBVV    5   5   6
+0022    UGET     6   2      ; 
+0023    UGET     7   5      ; 
+0024    TGETV    6   6   7
+0025    UGET     7   6      ; 
+0026    TGETV    6   6   7
+0027    LEN      6   6
+0028    CALL     3   0   4
+0029    CALLM    2   2   0
+0030    TSETV    2   0   1
+0031    UGET     0   0      ; 
+0032    UGET     1   1      ; 
+0033    UGET     2   2      ; 
+0034    UGET     3   5      ; 
+0035    TGETV    2   2   3
+0036    UGET     3   6      ; 
+0037    UGET     4   2      ; 
+0038    UGET     5   4      ; 
+0039    TGETV    4   4   5
+0040    UGET     5   2      ; 
+0041    UGET     6   5      ; 
+0042    TGETV    5   5   6
+0043    UGET     6   6      ; 
+0044    TGETV    5   5   6
+0045    UGET     6   2      ; 
+0046    UGET     7   5      ; 
+0047    TGETV    6   6   7
+0048    UGET     7   6      ; 
+0049    TGETV    6   6   7
+0050    LEN      6   6
+0051    UGET     7   0      ; 
+0052    UGET     8   1      ; 
+0053    TGETV    7   7   8
+0054    SUBVV    6   6   7
+0055    UGET     7   7      ; 
+0056    SUBVV    6   6   7
+0057    UGET     7   2      ; 
+0058    UGET     8   5      ; 
+0059    TGETV    7   7   8
+0060    UGET     8   6      ; 
+0061    TGETV    7   7   8
+0062    LEN      7   7
+0063    UGET     8   6      ; 
+0064    SUBVV    7   7   8
+0065    CALL     4   2   4
+0066    UGET     5   2      ; 
+0067    UGET     6   4      ; 
+0068    TGETV    5   5   6
+0069    UGET     6   2      ; 
+0070    UGET     7   5      ; 
+0071    TGETV    6   6   7
+0072    UGET     7   6      ; 
+0073    TGETV    6   6   7
+0074    UGET     7   7      ; 
+0075    UGET     8   2      ; 
+0076    UGET     9   5      ; 
+0077    TGETV    8   8   9
+0078    UGET     9   6      ; 
+0079    TGETV    8   8   9
+0080    LEN      8   8
+0081    UGET     9   0      ; 
+0082    UGET    10   1      ; 
+0083    TGETV    9   9  10
+0084    SUBVV    8   8   9
+0085    UGET     9   6      ; 
+0086    SUBVV    8   8   9
+0087    CALL     5   2   4
+0088    TSETV    5   2   3
+0089    TSETV    4   0   1
+0090    UGET     0   0      ; 
+0091    UGET     1   7      ; 
+0092    TGETV    0   0   1
+0093    UGET     1   2      ; 
+0094    UGET     2   5      ; 
+0095    TGETV    1   1   2
+0096    UGET     2   6      ; 
+0097    TGETV    1   1   2
+0098    CALL     0   2   2
+0099    ISF          0
+0100    JMP      1 => 0105
+0101    UGET     0   8      ; 
+0102    UGET     1   4      ; 
+0103    TGETV    0   0   1
+0104    CALLT    0   1
+0105 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     1   0      ; 
+0002    UGET     2   1      ; 
+0003    TNEW     3   4
+0004    UGET     4   2      ; 
+0005    TSETB    4   3   1
+0006    UGET     4   2      ; 
+0007    TSETB    4   3   2
+0008    UGET     4   2      ; 
+0009    TSETB    4   3   3
+0010    TSETV    3   1   2
+0011    UGET     1   3      ; 
+0012    LEN      2   0
+0013    UGET     3   1      ; 
+0014    FORI     1 => 0038
+0015 => UGET     5   0      ; 
+0016    UGET     6   1      ; 
+0017    TGETV    5   5   6
+0018    UGET     6   3      ; 
+0019    UGET     7   0      ; 
+0020    UGET     8   1      ; 
+0021    TGETV    7   7   8
+0022    UGET     8   3      ; 
+0023    TGETV    7   7   8
+0024    UGET     8   4      ; 
+0025    UGET     9   5      ; 
+0026    TGETV    8   8   9
+0027    UGET     9   4      ; 
+0028    UGET    10   6      ; 
+0029    TGETV    9   9  10
+0030    MOV     10   0
+0031    MOV     11   4
+0032    MOV     12   4
+0033    CALL     9   0   4
+0034    CALLM    8   2   0
+0035    ADDVV    7   7   8
+0036    TSETV    7   5   6
+0037    FORL     1 => 0015
+0038 => UGET     1   1      ; 
+0039    LEN      2   0
+0040    UGET     3   1      ; 
+0041    FORI     1 => 0065
+0042 => UGET     5   0      ; 
+0043    UGET     6   1      ; 
+0044    TGETV    5   5   6
+0045    UGET     6   1      ; 
+0046    UGET     7   0      ; 
+0047    UGET     8   1      ; 
+0048    TGETV    7   7   8
+0049    UGET     8   1      ; 
+0050    TGETV    7   7   8
+0051    UGET     8   4      ; 
+0052    UGET     9   5      ; 
+0053    TGETV    8   8   9
+0054    UGET     9   4      ; 
+0055    UGET    10   6      ; 
+0056    TGETV    9   9  10
+0057    MOV     10   0
+0058    MOV     11   4
+0059    MOV     12   4
+0060    CALL     9   0   4
+0061    CALLM    8   2   0
+0062    ADDVV    7   7   8
+0063    TSETV    7   5   6
+0064    FORL     1 => 0042
+0065 => UGET     1   3      ; 
+0066    LEN      2   0
+0067    UGET     3   1      ; 
+0068    DIVVV    2   2   3
+0069    KSHORT   3   1
+0070    FORI     1 => 0118
+0071 => UGET     5   0      ; 
+0072    UGET     6   1      ; 
+0073    TGETV    5   5   6
+0074    UGET     6   6      ; 
+0075    UGET     7   0      ; 
+0076    UGET     8   1      ; 
+0077    TGETV    7   7   8
+0078    UGET     8   6      ; 
+0079    TGETV    7   7   8
+0080    UGET     8   4      ; 
+0081    UGET     9   5      ; 
+0082    TGETV    8   8   9
+0083    UGET     9   4      ; 
+0084    UGET    10   6      ; 
+0085    TGETV    9   9  10
+0086    MOV     10   0
+0087    UGET    11   1      ; 
+0088    MULVV   11   4  11
+0089    UGET    12   3      ; 
+0090    SUBVV   11  11  12
+0091    UGET    12   1      ; 
+0092    MULVV   12   4  12
+0093    UGET    13   3      ; 
+0094    SUBVV   12  12  13
+0095    CALL     9   0   4
+0096    CALLM    8   2   0
+0097    UGET     9   4      ; 
+0098    UGET    10   5      ; 
+0099    TGETV    9   9  10
+0100    UGET    10   4      ; 
+0101    UGET    11   6      ; 
+0102    TGETV   10  10  11
+0103    MOV     11   0
+0104    UGET    12   1      ; 
+0105    MULVV   12   4  12
+0106    UGET    13   1      ; 
+0107    MULVV   13   4  13
+0108    CALL    10   0   4
+0109    CALLM    9   2   0
+0110    ADDVV    8   8   9
+0111    UGET     9   7      ; 
+0112    UGET    10   7      ; 
+0113    MULVV    9   9  10
+0114    MODVV    8   8   9
+0115    ADDVV    7   7   8
+0116    TSETV    7   5   6
+0117    FORL     1 => 0071
+0118 => UGET     1   0      ; 
+0119    UGET     2   1      ; 
+0120    UGET     3   0      ; 
+0121    UGET     4   1      ; 
+0122    TGETV    3   3   4
+0123    UGET     4   3      ; 
+0124    TGETV    3   3   4
+0125    UGET     4   0      ; 
+0126    UGET     5   1      ; 
+0127    TGETV    4   4   5
+0128    UGET     5   1      ; 
+0129    TGETV    4   4   5
+0130    ADDVV    3   3   4
+0131    UGET     4   0      ; 
+0132    UGET     5   1      ; 
+0133    TGETV    4   4   5
+0134    UGET     5   6      ; 
+0135    TGETV    4   4   5
+0136    ADDVV    3   3   4
+0137    UGET     4   7      ; 
+0138    UGET     5   7      ; 
+0139    MULVV    4   4   5
+0140    UGET     5   1      ; 
+0141    POW      4   4   5
+0142    MODVV    3   3   4
+0143    TSETV    3   1   2
+0144    UGET     1   0      ; 
+0145    UGET     2   1      ; 
+0146    TNEW     3   3
+0147    UGET     4   0      ; 
+0148    UGET     5   1      ; 
+0149    TGETV    4   4   5
+0150    UGET     5   0      ; 
+0151    UGET     6   1      ; 
+0152    TGETV    5   5   6
+0153    UGET     6   7      ; 
+0154    UGET     7   7      ; 
+0155    MULVV    6   6   7
+0156    MODVV    5   5   6
+0157    SUBVV    4   4   5
+0158    UGET     5   7      ; 
+0159    UGET     6   7      ; 
+0160    MULVV    5   5   6
+0161    DIVVV    4   4   5
+0162    TSETB    4   3   1
+0163    UGET     4   0      ; 
+0164    UGET     5   1      ; 
+0165    TGETV    4   4   5
+0166    UGET     5   7      ; 
+0167    UGET     6   7      ; 
+0168    MULVV    5   5   6
+0169    MODVV    4   4   5
+0170    TSETB    4   3   2
+0171    TSETV    3   1   2
+0172    UGET     1   0      ; 
+0173    UGET     2   8      ; 
+0174    TNEW     3   3
+0175    UGET     4   4      ; 
+0176    UGET     5   5      ; 
+0177    TGETV    4   4   5
+0178    UGET     5   4      ; 
+0179    UGET     6   6      ; 
+0180    TGETV    5   5   6
+0181    UGET     6   0      ; 
+0182    UGET     7   8      ; 
+0183    TGETV    6   6   7
+0184    UGET     7   3      ; 
+0185    UGET     8   1      ; 
+0186    CALL     5   0   4
+0187    CALLM    4   2   0
+0188    TSETB    4   3   1
+0189    UGET     4   4      ; 
+0190    UGET     5   5      ; 
+0191    TGETV    4   4   5
+0192    UGET     5   4      ; 
+0193    UGET     6   6      ; 
+0194    TGETV    5   5   6
+0195    UGET     6   0      ; 
+0196    UGET     7   8      ; 
+0197    TGETV    6   6   7
+0198    UGET     7   1      ; 
+0199    UGET     8   1      ; 
+0200    CALL     5   0   4
+0201    CALLM    4   0   0
+0202    TSETM    4   0      ; 2
+0203    TSETV    3   1   2
+0204    UGET     1   0      ; 
+0205    UGET     2   8      ; 
+0206    TGETV    1   1   2
+0207    UGET     2   3      ; 
+0208    TGETV    1   1   2
+0209    UGET     2   0      ; 
+0210    UGET     3   1      ; 
+0211    TGETV    2   2   3
+0212    UGET     3   3      ; 
+0213    TGETV    2   2   3
+0214    ISNEV    1   2
+0215    JMP      1 => 0228
+0216    UGET     1   0      ; 
+0217    UGET     2   1      ; 
+0218    TGETV    1   1   2
+0219    UGET     2   1      ; 
+0220    TGETV    1   1   2
+0221    UGET     2   0      ; 
+0222    UGET     3   8      ; 
+0223    TGETV    2   2   3
+0224    UGET     3   1      ; 
+0225    TGETV    2   2   3
+0226    ISEQV    1   2
+0227    JMP      1 => 0230
+0228 => KPRI     1   1
+0229    JMP      2 => 0231
+0230 => KPRI     1   2
+0231 => RET1     1   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    TGETV    0   0   1
+0004    UGET     1   2      ; 
+0005    TNEW     2   3
+0006    UGET     3   0      ; 
+0007    UGET     4   1      ; 
+0008    TGETV    3   3   4
+0009    UGET     4   2      ; 
+0010    TGETV    3   3   4
+0011    TSETB    3   2   1
+0012    UGET     3   0      ; 
+0013    UGET     4   3      ; 
+0014    TGETV    3   3   4
+0015    UGET     4   0      ; 
+0016    UGET     5   4      ; 
+0017    TGETV    4   4   5
+0018    UGET     5   0      ; 
+0019    UGET     6   1      ; 
+0020    TGETV    5   5   6
+0021    UGET     6   2      ; 
+0022    TGETV    5   5   6
+0023    UGET     6   5      ; 
+0024    UGET     7   2      ; 
+0025    CALL     4   0   4
+0026    CALLM    3   0   0
+0027    TSETM    3   0      ; 2
+0028    TSETV    2   0   1
+0029    UGET     0   6      ; 
+0030    UGET     1   7      ; 
+0031    UGET     2   6      ; 
+0032    UGET     3   1      ; 
+0033    UGET     4   0      ; 
+0034    UGET     5   4      ; 
+0035    TGETV    4   4   5
+0036    UGET     5   0      ; 
+0037    UGET     6   1      ; 
+0038    TGETV    5   5   6
+0039    UGET     6   2      ; 
+0040    TGETV    5   5   6
+0041    UGET     6   5      ; 
+0042    TGETV    5   5   6
+0043    UGET     6   4      ; 
+0044    UGET     7   0      ; 
+0045    UGET     8   1      ; 
+0046    TGETV    7   7   8
+0047    UGET     8   2      ; 
+0048    TGETV    7   7   8
+0049    UGET     8   2      ; 
+0050    TGETV    7   7   8
+0051    ADDVV    6   6   7
+0052    UGET     7   0      ; 
+0053    UGET     8   1      ; 
+0054    TGETV    7   7   8
+0055    UGET     8   2      ; 
+0056    TGETV    7   7   8
+0057    UGET     8   5      ; 
+0058    TGETV    7   7   8
+0059    LEN      7   7
+0060    CALL     4   2   4
+0061    UGET     5   0      ; 
+0062    UGET     6   4      ; 
+0063    TGETV    5   5   6
+0064    UGET     6   0      ; 
+0065    UGET     7   1      ; 
+0066    TGETV    6   6   7
+0067    UGET     7   2      ; 
+0068    TGETV    6   6   7
+0069    UGET     7   5      ; 
+0070    TGETV    6   6   7
+0071    UGET     7   4      ; 
+0072    UGET     8   2      ; 
+0073    UGET     9   0      ; 
+0074    UGET    10   1      ; 
+0075    TGETV    9   9  10
+0076    UGET    10   2      ; 
+0077    TGETV    9   9  10
+0078    UGET    10   2      ; 
+0079    TGETV    9   9  10
+0080    ADDVV    8   8   9
+0081    CALL     5   2   4
+0082    TSETV    5   2   3
+0083    TSETV    4   0   1
+0084    UGET     0   6      ; 
+0085    UGET     1   5      ; 
+0086    TGETV    0   0   1
+0087    CALL     0   2   1
+0088    ISF          0
+0089    JMP      1 => 0102
+0090    UGET     0   0      ; 
+0091    UGET     1   1      ; 
+0092    TGETV    0   0   1
+0093    UGET     1   2      ; 
+0094    UGET     2   6      ; 
+0095    UGET     3   7      ; 
+0096    TGETV    2   2   3
+0097    TSETV    2   0   1
+0098    UGET     0   8      ; 
+0099    UGET     1   9      ; 
+0100    TGETV    0   0   1
+0101    CALLT    0   1
+0102 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    TNEW     1   0
+0002    UGET     2   0      ; 
+0003    LEN      3   0
+0004    KSHORT   4   1
+0005    FORI     2 => 0019
+0006 => UGET     6   1      ; 
+0007    UGET     7   2      ; 
+0008    TGETV    6   6   7
+0009    UGET     7   1      ; 
+0010    UGET     8   3      ; 
+0011    TGETV    7   7   8
+0012    MOV      8   0
+0013    MOV      9   5
+0014    MOV     10   5
+0015    CALL     7   0   4
+0016    CALLM    6   2   0
+0017    TSETV    6   1   5
+0018    FORL     2 => 0006
+0019 => RET1     1   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     1   0      ; 
+0002    UGET     2   1      ; 
+0003    LEN      2   2
+0004    UGET     3   0      ; 
+0005    SUBVV    2   2   3
+0006    KSHORT   3   1
+0007    FORI     1 => 0064
+0008 => UGET     5   1      ; 
+0009    TGETV    5   5   4
+0010    ADDVV    5   0   5
+0011    UGET     6   2      ; 
+0012    UGET     7   2      ; 
+0013    MULVV    6   6   7
+0014    MODVV    5   5   6
+0015    UGET     6   2      ; 
+0016    UGET     7   2      ; 
+0017    MULVV    6   6   7
+0018    UGET     7   3      ; 
+0019    SUBVV    6   6   7
+0020    ISNEV    5   6
+0021    JMP      5 => 0025
+0022    UGET     5   4      ; 
+0023    ISTC     0   5
+0024    JMP      6 => 0063
+0025 => UGET     5   1      ; 
+0026    TGETV    5   5   4
+0027    ADDVV    5   0   5
+0028    UGET     6   2      ; 
+0029    UGET     7   2      ; 
+0030    MULVV    6   6   7
+0031    MODVV    5   5   6
+0032    UGET     6   2      ; 
+0033    UGET     7   2      ; 
+0034    MULVV    6   6   7
+0035    UGET     7   0      ; 
+0036    SUBVV    6   6   7
+0037    ISNEV    5   6
+0038    JMP      5 => 0046
+0039    UGET     5   2      ; 
+0040    UGET     6   2      ; 
+0041    MULVV    5   5   6
+0042    UGET     6   3      ; 
+0043    SUBVV    5   5   6
+0044    ISTC     0   5
+0045    JMP      6 => 0063
+0046 => UGET     5   1      ; 
+0047    TGETV    5   5   4
+0048    ADDVV    5   0   5
+0049    UGET     6   2      ; 
+0050    UGET     7   2      ; 
+0051    MULVV    6   6   7
+0052    MODVV    5   5   6
+0053    UGET     6   3      ; 
+0054    MULVV    5   5   6
+0055    UGET     6   2      ; 
+0056    UGET     7   2      ; 
+0057    MULVV    6   6   7
+0058    UGET     7   0      ; 
+0059    SUBVV    6   6   7
+0060    MODVV    5   5   6
+0061    UGET     6   0      ; 
+0062    ADDVV    0   5   6
+0063 => FORL     1 => 0008
+0064 => UGET     1   2      ; 
+0065    UGET     2   2      ; 
+0066    MULVV    1   1   2
+0067    UGET     2   0      ; 
+0068    SUBVV    1   1   2
+0069    UGET     2   1      ; 
+0070    UGET     3   1      ; 
+0071    LEN      3   3
+0072    TGETV    2   2   3
+0073    ADDVV    2   0   2
+0074    UGET     3   2      ; 
+0075    UGET     4   2      ; 
+0076    MULVV    3   3   4
+0077    MODVV    2   2   3
+0078    SUBVV    0   1   2
+0079    UGET     1   1      ; 
+0080    LEN      1   1
+0081    UGET     2   0      ; 
+0082    SUBVV    1   1   2
+0083    UGET     2   0      ; 
+0084    UGET     3   0      ; 
+0085    UGET     4   3      ; 
+0086    SUBVV    3   3   4
+0087    FORI     1 => 0136
+0088 => UGET     5   4      ; 
+0089    ISNEV    0   5
+0090    JMP      5 => 0098
+0091    UGET     5   2      ; 
+0092    UGET     6   2      ; 
+0093    MULVV    5   5   6
+0094    UGET     6   3      ; 
+0095    SUBVV    5   5   6
+0096    IST          5
+0097    JMP      6 => 0128
+0098 => UGET     5   2      ; 
+0099    UGET     6   2      ; 
+0100    MULVV    5   5   6
+0101    UGET     6   3      ; 
+0102    SUBVV    5   5   6
+0103    ISNEV    0   5
+0104    JMP      5 => 0112
+0105    UGET     5   2      ; 
+0106    UGET     6   2      ; 
+0107    MULVV    5   5   6
+0108    UGET     6   0      ; 
+0109    SUBVV    5   5   6
+0110    IST          5
+0111    JMP      6 => 0128
+0112 => UGET     5   5      ; 
+0113    UGET     6   6      ; 
+0114    TGETV    5   5   6
+0115    UGET     6   3      ; 
+0116    DIVVV    6   0   6
+0117    CALL     5   2   2
+0118    UGET     6   3      ; 
+0119    MODVV    6   0   6
+0120    SUBNV    6   6   0  ; 1
+0121    UGET     7   7      ; 
+0122    UGET     8   8      ; 
+0123    MULVV    7   7   8
+0124    UGET     8   9      ; 
+0125    ADDVV    7   7   8
+0126    MULVV    6   6   7
+0127    ADDVV    5   5   6
+0128 => UGET     6   1      ; 
+0129    TGETV    6   6   4
+0130    SUBVV    5   5   6
+0131    UGET     6   2      ; 
+0132    UGET     7   2      ; 
+0133    MULVV    6   6   7
+0134    MODVV    0   5   6
+0135    FORL     1 => 0088
+0136 => UGET     1   0      ; 
+0137    UGET     2   1      ; 
+0138    LEN      2   2
+0139    KSHORT   3   1
+0140    FORI     1 => 0171
+0141 => UGET     5   1      ; 
+0142    UGET     6   1      ; 
+0143    TGETV    6   6   4
+0144    UGET     7   1      ; 
+0145    UGET     8   0      ; 
+0146    SUBVV    8   4   8
+0147    TGETV    7   7   8
+0148    UGET     8  10      ; 
+0149    ISEQV    7   8
+0150    JMP      7 => 0160
+0151    UGET     7   1      ; 
+0152    UGET     8   0      ; 
+0153    SUBVV    8   4   8
+0154    TGETV    7   7   8
+0155    UGET     8   9      ; 
+0156    MODVV    7   7   8
+0157    UGET     8   4      ; 
+0158    ISNEV    7   8
+0159    JMP      7 => 0163
+0160 => UGET     7   0      ; 
+0161    IST          7
+0162    JMP      8 => 0164
+0163 => UGET     7   4      ; 
+0164 => ADDVV    6   6   7
+0165    UGET     7   2      ; 
+0166    UGET     8   2      ; 
+0167    MULVV    7   7   8
+0168    MODVV    6   6   7
+0169    TSETV    6   5   4
+0170    FORL     1 => 0141
+0171 => RET1     0   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    FNEW     0   0      ; volga_task.luac:0
+0002    MOV      1   0
+0003    UGET     2   4      ; 
+0004    UGET     3   5      ; 
+0005    TGETV    2   2   3
+0006    CALL     1   2   2
+0007    FNEW     2   1      ; volga_task.luac:0
+0008    MOV      3   0
+0009    UGET     4   4      ; 
+0010    UGET     5  14      ; 
+0011    TGETV    4   4   5
+0012    CALL     3   2   2
+0013    UGET     4   0      ; 
+0014    LEN      5   3
+0015    KSHORT   6   1
+0016    FORI     4 => 0022
+0017 => MOV      8   2
+0018    TGETV    9   3   7
+0019    CALL     8   2   2
+0020    TSETV    8   3   7
+0021    FORL     4 => 0017
+0022 => UGET     4   4      ; 
+0023    UGET     5  14      ; 
+0024    UGET     6   1      ; 
+0025    UGET     7   7      ; 
+0026    TGETV    6   6   7
+0027    MOV      7   3
+0028    CALL     6   2   2
+0029    TSETV    6   4   5
+0030    UGET     4  15      ; 
+0031    UCLO     0 => 0032
+0032 => RET1     4   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    TGETV    0   0   1
+0004    UGET     1   2      ; 
+0005    TNEW     2   5
+0006    UGET     3   0      ; 
+0007    UGET     4   1      ; 
+0008    TGETV    3   3   4
+0009    UGET     4   2      ; 
+0010    TGETV    3   3   4
+0011    TSETB    3   2   1
+0012    UGET     3   0      ; 
+0013    UGET     4   3      ; 
+0014    TGETV    3   3   4
+0015    UGET     4   0      ; 
+0016    UGET     5   2      ; 
+0017    TGETV    4   4   5
+0018    UGET     5   0      ; 
+0019    UGET     6   1      ; 
+0020    TGETV    5   5   6
+0021    UGET     6   4      ; 
+0022    TGETV    5   5   6
+0023    UGET     6   5      ; 
+0024    UGET     7   4      ; 
+0025    CALL     4   0   4
+0026    CALLM    3   2   0
+0027    TSETB    3   2   2
+0028    UGET     3   0      ; 
+0029    UGET     4   3      ; 
+0030    TGETV    3   3   4
+0031    UGET     4   0      ; 
+0032    UGET     5   2      ; 
+0033    TGETV    4   4   5
+0034    UGET     5   0      ; 
+0035    UGET     6   1      ; 
+0036    TGETV    5   5   6
+0037    UGET     6   4      ; 
+0038    TGETV    5   5   6
+0039    UGET     6   2      ; 
+0040    UGET     7   6      ; 
+0041    CALL     4   0   4
+0042    CALLM    3   2   0
+0043    TSETB    3   2   3
+0044    UGET     3   0      ; 
+0045    UGET     4   3      ; 
+0046    TGETV    3   3   4
+0047    UGET     4   0      ; 
+0048    UGET     5   2      ; 
+0049    TGETV    4   4   5
+0050    UGET     5   0      ; 
+0051    UGET     6   1      ; 
+0052    TGETV    5   5   6
+0053    UGET     6   4      ; 
+0054    TGETV    5   5   6
+0055    UGET     6   7      ; 
+0056    UGET     7   3      ; 
+0057    CALL     4   0   4
+0058    CALLM    3   0   0
+0059    TSETM    3   0      ; 4
+0060    TSETV    2   0   1
+0061    UGET     0   0      ; 
+0062    UGET     1   1      ; 
+0063    TGETV    0   0   1
+0064    UGET     1   4      ; 
+0065    UGET     2   0      ; 
+0066    UGET     3   1      ; 
+0067    TGETV    2   2   3
+0068    UGET     3   2      ; 
+0069    UGET     4   8      ; 
+0070    UGET     5   9      ; 
+0071    UGET     6   0      ; 
+0072    UGET     7   2      ; 
+0073    TGETV    6   6   7
+0074    UGET     7   0      ; 
+0075    UGET     8   1      ; 
+0076    TGETV    7   7   8
+0077    UGET     8   4      ; 
+0078    TGETV    7   7   8
+0079    UGET     8  10      ; 
+0080    UGET     9   0      ; 
+0081    UGET    10   1      ; 
+0082    TGETV    9   9  10
+0083    UGET    10   2      ; 
+0084    TGETV    9   9  10
+0085    UGET    10   6      ; 
+0086    TGETV    9   9  10
+0087    ADDVV    8   8   9
+0088    UGET     9   0      ; 
+0089    UGET    10   1      ; 
+0090    TGETV    9   9  10
+0091    UGET    10   4      ; 
+0092    TGETV    9   9  10
+0093    LEN      9   9
+0094    CALL     6   2   4
+0095    UGET     7   0      ; 
+0096    UGET     8   2      ; 
+0097    TGETV    7   7   8
+0098    UGET     8   0      ; 
+0099    UGET     9   1      ; 
+0100    TGETV    8   8   9
+0101    UGET     9   2      ; 
+0102    TGETV    8   8   9
+0103    UGET     9   5      ; 
+0104    TGETV    8   8   9
+0105    UGET     9   5      ; 
+0106    UGET    10   0      ; 
+0107    UGET    11   1      ; 
+0108    TGETV   10  10  11
+0109    UGET    11   2      ; 
+0110    TGETV   10  10  11
+0111    UGET    11   4      ; 
+0112    TGETV   10  10  11
+0113    ADDVV    9   9  10
+0114    UGET    10   0      ; 
+0115    UGET    11   1      ; 
+0116    TGETV   10  10  11
+0117    UGET    11   2      ; 
+0118    TGETV   10  10  11
+0119    UGET    11   4      ; 
+0120    TGETV   10  10  11
+0121    UGET    11   0      ; 
+0122    UGET    12   1      ; 
+0123    TGETV   11  11  12
+0124    UGET    12   2      ; 
+0125    TGETV   11  11  12
+0126    UGET    12   2      ; 
+0127    TGETV   11  11  12
+0128    ADDVV   10  10  11
+0129    CALL     7   2   4
+0130    UGET     8   0      ; 
+0131    UGET     9   2      ; 
+0132    TGETV    8   8   9
+0133    UGET     9   0      ; 
+0134    UGET    10   1      ; 
+0135    TGETV    9   9  10
+0136    UGET    10   4      ; 
+0137    TGETV    9   9  10
+0138    UGET    10  10      ; 
+0139    UGET    11   3      ; 
+0140    UGET    12   0      ; 
+0141    UGET    13   1      ; 
+0142    TGETV   12  12  13
+0143    UGET    13   2      ; 
+0144    TGETV   12  12  13
+0145    UGET    13   6      ; 
+0146    TGETV   12  12  13
+0147    ADDVV   11  11  12
+0148    CALL     8   2   4
+0149    TSETV    8   4   5
+0150    TSETV    7   2   3
+0151    TSETV    6   0   1
+0152    UGET     0   8      ; 
+0153    UGET     1   5      ; 
+0154    TGETV    0   0   1
+0155    UGET     1   0      ; 
+0156    UGET     2   1      ; 
+0157    TGETV    1   1   2
+0158    UGET     2   2      ; 
+0159    TGETV    1   1   2
+0160    CALL     0   2   2
+0161    ISF          0
+0162    JMP      1 => 0167
+0163    UGET     0  11      ; 
+0164    UGET     1   7      ; 
+0165    TGETV    0   0   1
+0166    CALLT    0   1
+0167 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    TGETV    0   0   1
+0004    UGET     1   2      ; 
+0005    TNEW     2   4
+0006    UGET     3   0      ; 
+0007    UGET     4   3      ; 
+0008    TGETV    3   3   4
+0009    UGET     4   0      ; 
+0010    UGET     5   1      ; 
+0011    TGETV    4   4   5
+0012    UGET     5   2      ; 
+0013    TGETV    4   4   5
+0014    UGET     5   4      ; 
+0015    UGET     6   0      ; 
+0016    UGET     7   1      ; 
+0017    TGETV    6   6   7
+0018    UGET     7   2      ; 
+0019    TGETV    6   6   7
+0020    LEN      6   6
+0021    CALL     3   2   4
+0022    TSETB    3   2   1
+0023    UGET     3   0      ; 
+0024    UGET     4   5      ; 
+0025    TGETV    3   3   4
+0026    UGET     4   0      ; 
+0027    UGET     5   3      ; 
+0028    TGETV    4   4   5
+0029    UGET     5   0      ; 
+0030    UGET     6   1      ; 
+0031    TGETV    5   5   6
+0032    UGET     6   2      ; 
+0033    TGETV    5   5   6
+0034    UGET     6   6      ; 
+0035    UGET     7   2      ; 
+0036    CALL     4   0   4
+0037    CALLM    3   2   0
+0038    TSETB    3   2   2
+0039    UGET     3   0      ; 
+0040    UGET     4   5      ; 
+0041    TGETV    3   3   4
+0042    UGET     4   0      ; 
+0043    UGET     5   3      ; 
+0044    TGETV    4   4   5
+0045    UGET     5   0      ; 
+0046    UGET     6   1      ; 
+0047    TGETV    5   5   6
+0048    UGET     6   2      ; 
+0049    TGETV    5   5   6
+0050    UGET     6   3      ; 
+0051    UGET     7   7      ; 
+0052    CALL     4   0   4
+0053    CALLM    3   0   0
+0054    TSETM    3   0      ; 3
+0055    TSETV    2   0   1
+0056    UGET     0   8      ; 
+0057    UGET     1   3      ; 
+0058    UGET     2   8      ; 
+0059    UGET     3   7      ; 
+0060    UGET     4   0      ; 
+0061    UGET     5   3      ; 
+0062    TGETV    4   4   5
+0063    UGET     5   0      ; 
+0064    UGET     6   1      ; 
+0065    TGETV    5   5   6
+0066    UGET     6   2      ; 
+0067    TGETV    5   5   6
+0068    UGET     6   6      ; 
+0069    TGETV    5   5   6
+0070    UGET     6   6      ; 
+0071    UGET     7   0      ; 
+0072    UGET     8   1      ; 
+0073    TGETV    7   7   8
+0074    UGET     8   2      ; 
+0075    TGETV    7   7   8
+0076    UGET     8   2      ; 
+0077    TGETV    7   7   8
+0078    CALL     4   2   4
+0079    UGET     5   0      ; 
+0080    UGET     6   1      ; 
+0081    TGETV    5   5   6
+0082    UGET     6   2      ; 
+0083    TGETV    5   5   6
+0084    UGET     6   3      ; 
+0085    TGETV    5   5   6
+0086    TSETV    5   2   3
+0087    TSETV    4   0   1
+0088    UGET     0   8      ; 
+0089    UGET     1   6      ; 
+0090    TGETV    0   0   1
+0091    CALL     0   1   1
+0092    UGET     0   8      ; 
+0093    UGET     1   7      ; 
+0094    UGET     2   0      ; 
+0095    UGET     3   3      ; 
+0096    TGETV    2   2   3
+0097    UGET     3   0      ; 
+0098    UGET     4   1      ; 
+0099    TGETV    3   3   4
+0100    UGET     4   2      ; 
+0101    TGETV    3   3   4
+0102    UGET     4   6      ; 
+0103    TGETV    3   3   4
+0104    UGET     4   0      ; 
+0105    UGET     5   1      ; 
+0106    TGETV    4   4   5
+0107    UGET     5   2      ; 
+0108    TGETV    4   4   5
+0109    UGET     5   2      ; 
+0110    TGETV    4   4   5
+0111    UGET     5   6      ; 
+0112    ADDVV    4   4   5
+0113    UGET     5   0      ; 
+0114    UGET     6   1      ; 
+0115    TGETV    5   5   6
+0116    UGET     6   2      ; 
+0117    TGETV    5   5   6
+0118    UGET     6   6      ; 
+0119    TGETV    5   5   6
+0120    LEN      5   5
+0121    CALL     2   2   4
+0122    TSETV    2   0   1
+0123    UGET     0   8      ; 
+0124    UGET     1   2      ; 
+0125    TGETV    0   0   1
+0126    CALL     0   1   1
+0127    UGET     0   0      ; 
+0128    UGET     1   9      ; 
+0129    TGETV    0   0   1
+0130    UGET     1   0      ; 
+0131    UGET     2   1      ; 
+0132    TGETV    1   1   2
+0133    UGET     2   6      ; 
+0134    TGETV    1   1   2
+0135    ISNEV    0   1
+0136    JMP      0 => 0183
+0137    UGET     0  10      ; 
+0138    UGET     1   9      ; 
+0139    UGET     2  10      ; 
+0140    UGET     3   1      ; 
+0141    UGET     4   0      ; 
+0142    UGET     5   1      ; 
+0143    TGETV    4   4   5
+0144    UGET     5   2      ; 
+0145    TGETV    4   4   5
+0146    UGET     5   0      ; 
+0147    UGET     6   1      ; 
+0148    TGETV    5   5   6
+0149    UGET     6   6      ; 
+0150    TGETV    5   5   6
+0151    TSETV    5   2   3
+0152    TSETV    4   0   1
+0153    UGET     0  10      ; 
+0154    UGET     1   6      ; 
+0155    TGETV    0   0   1
+0156    CALL     0   2   1
+0157    ISF          0
+0158    JMP      1 => 0183
+0159    UGET     0  10      ; 
+0160    UGET     1   9      ; 
+0161    UGET     2  10      ; 
+0162    UGET     3   1      ; 
+0163    UGET     4   0      ; 
+0164    UGET     5   1      ; 
+0165    TGETV    4   4   5
+0166    UGET     5   3      ; 
+0167    TGETV    4   4   5
+0168    UGET     5  10      ; 
+0169    UGET     6   9      ; 
+0170    TGETV    5   5   6
+0171    TSETV    5   2   3
+0172    TSETV    4   0   1
+0173    UGET     0  10      ; 
+0174    UGET     1   6      ; 
+0175    TGETV    0   0   1
+0176    CALL     0   2   1
+0177    ISF          0
+0178    JMP      1 => 
+0179    UGET     0  11      ; 
+0180    UGET     1   5      ; 
+0181    TGETV    0   0   1
+0182    CALLT    0   1
+0183 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   1      ; 
+0002    UGET     1   2      ; 
+0003    UGET     2   3      ; 
+0004    UGET     3   4      ; 
+0005    TSETV    3   0   1
+0006    USETV    0   2      ; 
+0007    RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    UGET     0   0      ; 
+0002    UGET     1   1      ; 
+0003    TGETV    0   0   1
+0004    RET1     0   2
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    KNIL     2  41
+0002    FNEW    15   0      ; volga_task.luac:0
+0003    FNEW    17   1      ; volga_task.luac:0
+0004    FNEW    16   2      ; volga_task.luac:0
+0005    MOV     42  15
+0006    CALL    42   2   1
+0007    MOV     14  42
+0008    FNEW    17   3      ; volga_task.luac:0
+0009    FNEW    16   4      ; volga_task.luac:0
+0010    ISFC    14  13
+0011    JMP     42 => 0015
+0012    MOV     42  15
+0013    CALL    42   2   1
+0014    MOV     14  42
+0015 => FNEW    17   5      ; volga_task.luac:0
+0016    FNEW    16   6      ; volga_task.luac:0
+0017    ISFC    14  13
+0018    JMP     42 => 0022
+0019    MOV     42  15
+0020    CALL    42   2   1
+0021    MOV     14  42
+0022 => FNEW    17   7      ; volga_task.luac:0
+0023    FNEW    16   8      ; volga_task.luac:0
+0024    ISFC    14  13
+0025    JMP     42 => 0029
+0026    MOV     42  15
+0027    CALL    42   2   1
+0028    MOV     14  42
+0029 => FNEW    17   9      ; volga_task.luac:0
+0030    FNEW    16  10      ; volga_task.luac:0
+0031    ISFC    14  13
+0032    JMP     42 => 0036
+0033    MOV     42  15
+0034    CALL    42   2   1
+0035    MOV     14  42
+0036 => FNEW    17  11      ; volga_task.luac:0
+0037    FNEW    16  12      ; volga_task.luac:0
+0038    ISFC    14  13
+0039    JMP     42 => 0043
+0040    MOV     42  15
+0041    CALL    42   2   1
+0042    MOV     14  42
+0043 => FNEW    17  13      ; volga_task.luac:0
+0044    FNEW    16  14      ; volga_task.luac:0
+0045    ISFC    14  13
+0046    JMP     42 => 0050
+0047    MOV     42  15
+0048    CALL    42   2   1
+0049    MOV     14  42
+0050 => FNEW    17  15      ; volga_task.luac:0
+0051    FNEW    16  16      ; volga_task.luac:0
+0052    ISFC    14  13
+0053    JMP     42 => 0057
+0054    MOV     42  15
+0055    CALL    42   2   1
+0056    MOV     14  42
+0057 => FNEW    17  17      ; volga_task.luac:0
+0058    FNEW    16  18      ; volga_task.luac:0
+0059    ISFC    14  13
+0060    JMP     42 => 0064
+0061    MOV     42  15
+0062    CALL    42   2   1
+0063    MOV     14  42
+0064 => FNEW    17  19      ; volga_task.luac:0
+0065    FNEW    16  20      ; volga_task.luac:0
+0066    ISFC    14  13
+0067    JMP     42 => 0071
+0068    MOV     42  15
+0069    CALL    42   2   1
+0070    MOV     14  42
+0071 => FNEW    17  21      ; volga_task.luac:0
+0072    FNEW    16  22      ; volga_task.luac:0
+0073    ISFC    14  13
+0074    JMP     42 => 0078
+0075    MOV     42  15
+0076    CALL    42   2   1
+0077    MOV     14  42
+0078 => FNEW    17  23      ; volga_task.luac:0
+0079    FNEW    16  24      ; volga_task.luac:0
+0080    ISFC    14  13
+0081    JMP     42 => 0085
+0082    MOV     42  15
+0083    CALL    42   2   1
+0084    MOV     14  42
+0085 => FNEW    17  25      ; volga_task.luac:0
+0086    ISFC    14  13
+0087    JMP     42 => 0091
+0088    MOV     42  15
+0089    CALL    42   2   1
+0090    MOV     14  42
+0091 => ISFC    41  13
+0092    JMP     42 => 0096
+0093    TGETV   42  22  24
+0094    CALL    42   2   1
+0095    MOV     41  42
+0096 => ISF         13
+0097    JMP     42 => 0107
+0098    ISF         41
+0099    JMP     42 => 0107
+0100    GGET    42  26      ; "print"
+0101    KSTR    43  27      ; "GOOD JOB! Your flag is {"
+0102    MOV     44  41
+0103    KSTR    45  28      ; "}"
+0104    CAT     43  43  45
+0105    CALL    42   1   2
+0106    JMP     42 => 0110
+0107 => GGET    42  26      ; "print"
+0108    KSTR    43  29      ; "Password WRONG!"
+0109    CALL    42   1   2
+0110 => UCLO     0 => 0111
+0111 => RET0     0   1
+
+-- BYTECODE -- volga_task.luac:0-0
+0001    FNEW     0   0      ; volga_task.luac:0
+0002    UCLO     0 => 0003
+0003 => RET1     0   2
+

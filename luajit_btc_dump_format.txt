@@ -1,0 +1,50 @@
+LuaJIT 2.0 Bytecode Dump Format
+LuaJIT bytecode dump format is produced using luajit -b or string.dump function. It can be saved to file and loaded later, instead of storing plain Lua source, occupying more space and taking longer to load.
+
+Details for the bytecode dump format can be found in src/lj_bcdump.h in the LuaJIT source code. Here's the concise format description:
+
+dump   = header proto+ 0U
+header = ESC 'L' 'J' versionB flagsU [namelenU nameB*]
+proto  = lengthU pdata
+pdata  = phead bcinsW* uvdataH* kgc* knum* [debugB*]
+phead  = flagsB numparamsB framesizeB numuvB numkgcU numknU numbcU
+         [debuglenU [firstlineU numlineU]]
+kgc    = kgctypeU { ktab | (loU hiU) | (rloU rhiU iloU ihiU) | strB* }
+knum   = intU0 | (loU1 hiU)
+ktab   = narrayU nhashU karray* khash*
+karray = ktabk
+khash  = ktabk ktabk
+ktabk  = ktabtypeU { intU | (loU hiU) | strB* }
+
+B = 8 bit, H = 16 bit, W = 32 bit, U = ULEB128 of W, U0/U1 = ULEB128 of W+1
+TODO: turn the description into human-readable text :-)
+The dump starts with magic \x1bLJ. After the magic comes version number, which indicates the version of bytecode. Different versions are not compatible. At the time of writing, current version number is 1 and is defined by BCDUMP_VERSION macro in src/lj_dump.h. Next, BCDUMP_F_{STRIP, BE, FFI} bit flags (found in src/lj_dump.h) are encoded using ULEB128. If BCDUMP_F_STRIP flag is not set, next comes ULEB128-encoded chunk name's length and it itself right after length, otherwise this step is skipped.
+
+#define BCDUMP_F_BE         0x01
+#define BCDUMP_F_STRIP      0x02
+#define BCDUMP_F_FFI        0x04
+#define BCDUMP_F_FR2        0x08
+
+#define BCDUMP_F_KNOWN      (BCDUMP_F_FR2*2-1)
+
+TODO: what does lj_bcwrite.c:370 ctx->status = ctx->wfunc(ctx->L, ctx->sb.buf, ctx->sb.n, ctx->wdata); do exactly?
+
+TODO: more information about GCproto
+
+Next, the GCproto objects are written which carry the the bytecode. Notice the plural objects, there's one object per function. Objects are written deepest, first first, i.e.:
+
+function a()
+ function b()
+  print(1)
+ end
+ return b
+end
+a()()
+First b, then a and then the rest of the scope is written.
+At the end there is a \0 byte, which signals EOF for bcread_proto.
+
+BCDUMP_F_* flags
+TODO
+
+GCProto
+TODO
