@@ -7,17 +7,20 @@ from ljdc.decanal.crawler import Crawler
 
 from ljdc.bytecode.instructions import OPCODES
 
+from ljdc.decanal.expression import *
+
 def main(argc, argv):
     io = RawStream(argv[1])
     parsed = Dump(io)
 
     canal = Crawler(parsed)
+    canal.translate()
 
     assert len(parsed.prototypes) == 1
 
-    used_ops = Crawler.dis(parsed.prototypes[0])
-    for i in used_ops:
-        print(OPCODES[i].mnem)
+    # used_ops = Crawler.dis(parsed.prototypes[0])
+    # for i in used_ops:
+    #     print(OPCODES[i].mnem)
 
     return 0
 
